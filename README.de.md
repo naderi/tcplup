@@ -58,7 +58,7 @@ Das Programm erscheint auf Deutsch, wenn Windows auf Deutsch eingestellt ist, so
 - **Versionsnummern werden verglichen, nicht geraten.** `2.2.3` und `2.23` oder `2.0.0.4` und `2.04` gelten als dieselbe Version. Eine Seite, die älter ist als die installierten Dateien, wird nicht als Update angeboten.
 - ZIP-Archive werden direkt installiert. Für **7z**- und **RAR**-Archive (manche Plugins werden so veröffentlicht) braucht TCplup [7-Zip](https://www.7-zip.org) (gefunden im `PATH`, in Programme oder in Scoop); ohne 7-Zip zeigt das Plugin *für dieses Archiv wird 7-Zip benötigt*.
 - Nicht jeder Eintrag auf ghisler.com verweist direkt auf ein Archiv. TCplup folgt Links auf eine GitHub-Releases-Seite (dann wird das neueste Release genutzt) und auf eine Download-Seite (dann wird das erste dort verlinkte ZIP, 7z oder RAR genommen). Namen werden ohne angehängtes „plugin“ oder „plug“ verglichen, daher findet `sftpplug` den Eintrag *SFTP* und `cloudplugin` den Eintrag *Cloud*.
-- Plugins ohne Quelle zeigen *keine Quelle gefunden*. Plugins, die auf GitHub (oder einer anderen Seite) liegen, lassen sich von Hand mit ihrer Quelle versehen. GitHub erlaubt ohne Anmeldung 60 Anfragen pro Stunde, das reicht für einige Plugins.
+- Plugins ohne Quelle zeigen *keine Quelle gefunden*. Ein nicht gefundenes Plugin wird nach 7 Tagen erneut gesucht, oder sofort, wenn sein Name in der Liste der neuesten Plugins von totalcmd.net auftaucht. Plugins, die auf GitHub (oder einer anderen Seite) liegen, lassen sich von Hand mit ihrer Quelle versehen. GitHub erlaubt ohne Anmeldung 60 Anfragen pro Stunde, das reicht für einige Plugins.
 
 ## Programm-Updates
 

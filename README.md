@@ -58,7 +58,7 @@ The program appears in German when Windows is set to German, otherwise in Englis
 - **Version numbers are compared, not guessed.** `2.2.3` and `2.23`, or `2.0.0.4` and `2.04`, count as the same version. A page that is older than the installed files is not offered as an update.
 - ZIP archives are installed directly. For **7z** and **RAR** archives (some plugins are published that way) TCplup needs [7-Zip](https://www.7-zip.org) (found in `PATH`, in Program Files or in Scoop); without it the plugin shows *7-Zip is needed for this archive*.
 - Not every entry on ghisler.com links straight to an archive. TCplup follows links to a GitHub releases page (it then uses the latest release) and to a download page (it takes the first ZIP, 7z or RAR linked there). Names are matched without a trailing "plugin" or "plug", so `sftpplug` finds *SFTP* and `cloudplugin` finds *Cloud*.
-- Plugins without a source show *no source found*. Plugins that live on GitHub (or another site) can be given their source by hand. GitHub allows 60 requests per hour without a login, which is plenty for a few plugins.
+- Plugins without a source show *no source found*. A plugin that was not found is searched again after 7 days, or at once when its name shows up in the newest-plugins list of totalcmd.net. Plugins that live on GitHub (or another site) can be given their source by hand. GitHub allows 60 requests per hour without a login, which is plenty for a few plugins.
 
 ## Program updates
 
