@@ -40,11 +40,13 @@ An updater for [Total Commander](https://www.ghisler.com) plugins. It reads the 
 | Checkbox above the list | Ticks and unticks many plugins at once. Each click moves on: **select the updates**, then **select all**, then **clear the selection**; the box shows what is ticked right now (empty, a dash for some, a check mark for all) and the text next to it says what the next click does. It acts on the plugins that are shown, so with a legend filter active only on those. |
 | **Legend** (above the list) | *update available*, *up to date*, *unknown* and *ignored* are filters: click one to show only those plugins, click again to show all. *ignored* is your ignore list. |
 | **Check** | Looks for updates again for all plugins. |
-| **Update (n)** | Installs the ticked plugins. During the update, *Quit* becomes **Cancel**. |
+| **Update (n)** | Installs the ticked plugins (with *Download only* switched on, the button reads **Download (n)** and only saves the archives). During the update, *Quit* becomes **Cancel**. |
 | **Plugin list** | Installed plugins or all plugins in the plugin folder. |
 | **Update mode** | Automatic (totalcmd.net, then ghisler.com), only totalcmd.net or only ghisler.com. |
 | **Check for updates on start** | Looks for updates when TCplup starts (it never installs on its own). |
-| **Keep downloaded ZIP files** | Keeps the ZIPs in the `downloads` folder next to TCplup. |
+| **Keep downloaded archives** | Keeps the downloaded archives in the download folder. |
+| **Download only (do not install)** | Saves the archives in the download folder and leaves the installed plugins untouched. |
+| **Download folder** | Where kept and downloaded archives go. Default: the folder `downloads` next to TCplup; choose another one with *Change…*. |
 | **ⓘ** (bottom left) | About window with version, developer, website and program updates. |
 
 Right-click a plugin (or the selected plugins) for **Update** – installs it right away, also when it is up to date –, *Open source page*, *Open plugin folder*, *Set source…*, *Skip this version* (only this version is hidden) and **Ignore this plugin (never update)**. An ignored plugin stays in the list, dimmed and marked *ignored*; it is not checked, not ticked and not updated until you choose *Stop ignoring this plugin*. **Extras** has *Read plugins again* (F5), *Choose Total Commander configuration…*, *Open plugin folder*, *Select all updates* / *Clear selection* and *Expand all groups* / *Collapse all groups*.

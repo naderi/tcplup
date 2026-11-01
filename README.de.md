@@ -40,11 +40,13 @@ Ein Updater für Plugins des [Total Commanders](https://www.ghisler.com). Er lie
 | Kontrollkästchen über der Liste | Wählt viele Plugins auf einmal an oder ab. Jeder Klick geht einen Schritt weiter: **Aktualisierungen auswählen**, dann **Alles auswählen**, dann **Auswahl aufheben**; das Kästchen zeigt, was gerade angehakt ist (leer, Strich bei einigen, Haken bei allen), und der Text daneben sagt, was der nächste Klick tut. Es wirkt auf die angezeigten Plugins, bei aktivem Legendenfilter also nur auf diese. |
 | **Legende** (über der Liste) | *Update verfügbar*, *aktuell*, *unbekannt* und *ignoriert* sind Filter: Klick zeigt nur diese Plugins, erneuter Klick wieder alle. *ignoriert* ist deine Ignore-Liste. |
 | **Prüfen** | Sucht für alle Plugins erneut nach Updates. |
-| **Aktualisieren (n)** | Installiert die angehakten Plugins. Während des Updates wird *Beenden* zu **Abbrechen**. |
+| **Aktualisieren (n)** | Installiert die angehakten Plugins (bei eingeschaltetem *Nur herunterladen* heißt der Button **Herunterladen (n)** und speichert nur die Archive). Während des Updates wird *Beenden* zu **Abbrechen**. |
 | **Plugin-Liste** | Installierte Plugins oder alle Plugins im Plugin-Ordner. |
 | **Update-Modus** | Automatisch (totalcmd.net, dann ghisler.com), nur totalcmd.net oder nur ghisler.com. |
 | **Beim Start nach Updates suchen** | Sucht beim Start von TCplup nach Updates (installiert aber nie von selbst). |
-| **Heruntergeladene ZIP-Dateien behalten** | Behält die ZIP-Dateien im Ordner `downloads` neben TCplup. |
+| **Heruntergeladene Archive behalten** | Behält die heruntergeladenen Archive im Download-Ordner. |
+| **Nur herunterladen (nicht installieren)** | Speichert die Archive im Download-Ordner und lässt die installierten Plugins unverändert. |
+| **Download-Ordner** | Wohin behaltene und heruntergeladene Archive kommen. Standard: der Ordner `downloads` neben TCplup; mit *Ändern …* wählst du einen anderen. |
 | **ⓘ** (unten links) | Info-Fenster mit Version, Entwickler, Website und Programm-Updates. |
 
 Rechtsklick auf ein Plugin (oder die markierten Plugins): **Aktualisieren** – installiert sofort, auch wenn es aktuell ist –, *Quellseite öffnen*, *Plugin-Ordner öffnen*, *Quelle festlegen …*, *Diese Version überspringen* (nur diese Version wird ausgeblendet) und **Plugin ignorieren (nie aktualisieren)**. Ein ignoriertes Plugin bleibt abgeblendet und mit *ignoriert* in der Liste; es wird nicht geprüft, nicht angehakt und nicht aktualisiert, bis du *Plugin nicht mehr ignorieren* wählst. Das Menü **Extras** enthält *Plugins neu einlesen* (F5), *Total-Commander-Konfiguration wählen …*, *Plugin-Ordner öffnen*, *Alle Updates auswählen* / *Auswahl aufheben* sowie *Alle Gruppen aufklappen* / *Alle Gruppen zuklappen*.
