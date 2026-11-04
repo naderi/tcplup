@@ -41,6 +41,7 @@ Ein Updater für Plugins des [Total Commanders](https://www.ghisler.com). Er lie
 | **Legende** (über der Liste) | *Update verfügbar*, *aktuell*, *unbekannt* und *ignoriert* sind Filter: Klick zeigt nur diese Plugins, erneuter Klick wieder alle. *ignoriert* ist deine Ignore-Liste. |
 | **Prüfen** | Sucht für alle Plugins erneut nach Updates. |
 | **Aktualisieren (n)** | Installiert die angehakten Plugins (bei eingeschaltetem *Nur herunterladen* heißt der Button **Herunterladen (n)** und speichert nur die Archive). Während des Updates wird *Beenden* zu **Abbrechen**. |
+| **Optionen** (Überschrift) | Ein Klick auf die Überschrift blendet den Optionsblock aus oder ein; das Fenster wird um dessen Höhe kleiner oder größer, und TCplup merkt sich den Zustand. |
 | **Plugin-Liste** | Installierte Plugins oder alle Plugins im Plugin-Ordner. |
 | **Update-Modus** | Automatisch (totalcmd.net, dann ghisler.com), nur totalcmd.net oder nur ghisler.com. |
 | **Beim Start nach Updates suchen** | Sucht beim Start von TCplup nach Updates (installiert aber nie von selbst). |
