@@ -4,7 +4,7 @@
 
 An updater for [Total Commander](https://www.ghisler.com) plugins. It reads the list of your plugins, looks for newer versions on [totalcmd.net](https://totalcmd.net), [ghisler.com](https://www.ghisler.com/plugins.htm) or GitHub, and downloads and installs them – one click for all of them.
 
-![TCplup listing the plugins of a Total Commander installation, with five updates available](docs/screenshot.png)
+![TCplup listing the plugins of a Total Commander installation, with four updates available](docs/screenshot.png)
 
 ## Download
 
@@ -37,8 +37,8 @@ An updater for [Total Commander](https://www.ghisler.com) plugins. It reads the 
 | Element | What it does |
 |---|---|
 | **Plugins** list | Each row shows the date of the plugin's newest file in the column **Last update**. The switch above the list shows the plugins **Grouped** by type – **Lister**, **Content**, **Packer** and **File system** plugins – or as one list sorted **A–Z**. Plugins with an update come first in both views. In the grouped view, click a group header (or press Left/Right or Space on it) to collapse or expand it; the header shows the number of plugins and of updates. **Orange** = update available (ticked by default), **green** = up to date, **grey** = unknown or no source found. Click the box (or press Space) to tick or untick a plugin. Select several plugins with Ctrl and Shift. |
-| Checkbox above the list | Ticks and unticks many plugins at once. Each click moves on: **select the updates**, then **select all**, then **clear the selection**; the box shows what is ticked right now (empty, a dash for some, a check mark for all) and the text next to it says what the next click does. It acts on the plugins that are shown, so with a legend filter active only on those. |
-| **Legend** (above the list) | *update available*, *up to date*, *unknown* and *ignored* are filters: click one to show only those plugins, click again to show all. *ignored* is your ignore list. |
+| Checkbox above the list | Ticks and unticks many plugins at once. Each click moves on: **select the updates**, then **select all**, then **clear the selection**; the box shows what is ticked right now (empty, a dash for some, a check mark for all) and the text next to it says what the next click does. It acts on the plugins that are shown, so with a filter switched off only on those. |
+| **Filters** (next to the switch) | Check boxes *Updates*, *Up to date* and *Unknown* and the menu **User defined** with *Ignored*, *Skipped* and *Marked as updated* (your own actions, see below). All are on by default; untick one to hide those plugins. In the list, plugins with an action of yours carry a colored note: *ignored*, *skipped*, *marked as updated*. |
 | **Check** | Looks for updates again for all plugins. |
 | **Update (n)** | Installs the ticked plugins (with *Download only* switched on, the button reads **Download (n)** and only saves the archives). During the update, *Quit* becomes **Cancel**. |
 | **Options** (heading) | Click the heading to hide or show the option block; the window shrinks or grows by its height, and TCplup remembers the state. |
@@ -51,9 +51,9 @@ An updater for [Total Commander](https://www.ghisler.com) plugins. It reads the 
 | **Download folder** | Where kept and downloaded archives go. Default: the folder `downloads` next to TCplup; choose another one with *Change…*. |
 | **ⓘ** (bottom left) | About window with version, developer, website and program updates. |
 
-Right-click a plugin (or the selected plugins) for **Update** – installs it right away –, **Force update** (reinstalls it also when it is up to date), **Mark as updated** (for a plugin you updated by hand: the offered version counts as installed), *Open source page*, *Open plugin folder* (in the running Total Commander, otherwise in Explorer), *Set source…*, *Skip this version* (only this version is hidden) and **Ignore this plugin (never update)**. An ignored plugin stays in the list, dimmed and marked *ignored*; it is not checked, not ticked and not updated until you choose *Stop ignoring this plugin*. **Extras** has *Read plugins again* (F5), *Choose Total Commander configuration…*, *Open plugin folder*, *Select all updates* / *Clear selection* and *Expand all groups* / *Collapse all groups*.
+Right-click a plugin (or the selected plugins) for **Update** – installs it right away –, **Force update** (reinstalls it also when it is up to date), **Mark as updated** (for a plugin you updated by hand: the offered version counts as installed; for a plugin whose files carry no version it reads **Take current version from the source**), *Open source page*, *Open plugin folder* (in the running Total Commander, otherwise in Explorer), *Set source…*, *Skip this version* (only this version is hidden) and **Ignore this plugin (never update)**. An ignored plugin stays in the list, dimmed and marked *ignored*; it is not checked, not ticked and not updated until you choose *Stop ignoring this plugin*. Each of these actions can be undone in the same menu (*Stop skipping this version*, *Remove "updated" mark*), and the **User defined** filter shows which plugins you applied them to. **Extras** has *Read plugins again* (F5), *Choose Total Commander configuration…*, *Open plugin folder*, *Select all updates* / *Clear selection* and *Expand all groups* / *Collapse all groups*.
 
-The program appears in German when Windows is set to German, otherwise in English. It follows the light or dark Windows theme and the accent color.
+TCplup remembers the position and size of its window. The program appears in German when Windows is set to German, otherwise in English. It follows the light or dark Windows theme and the accent color.
 
 ## Good to know
 
