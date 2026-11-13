@@ -48,12 +48,15 @@ Ein Updater für Plugins des [Total Commanders](https://www.ghisler.com). Er lie
 | **Heruntergeladene Archive behalten** | Behält die heruntergeladenen Archive im Download-Ordner. |
 | **Nur herunterladen (nicht installieren)** | Speichert die Archive im Download-Ordner und lässt die installierten Plugins unverändert. |
 | **Update erzwingen (auch wenn aktuell)** | Bietet jedes Plugin mit Download als Update an (angehakt), sodass die aktuelle Version erneut installiert wird. |
+| **Nur Dateien der eigenen Bitness kopieren (32 / 64 Bit)** | Von einem 32-/64-Bit-Paar (`x.wfx` und `x.wfx64`) kopiert eine Installation oder ein Update nur die Datei, die dein Total Commander lädt. |
+| **Ungenutzte 32-/64-Bit-Dateien löschen** | *Aufräumen* verschiebt die Datei eines 32-/64-Bit-Paars, die dein Total Commander nie lädt, in allen Plugin-Ordnern in den Papierkorb (nach Rückfrage). |
+| **Design** | *Hell*, *Dunkel* oder *TC folgen* (die Dark-Mode-Einstellung von Total Commander; folgt diese Windows, entscheidet Windows). |
 | **Download-Ordner** | Wohin behaltene und heruntergeladene Archive kommen. Standard: der Ordner `downloads` neben TCplup; mit *Ändern …* wählst du einen anderen. |
 | **ⓘ** (unten links) | Info-Fenster mit Version, Entwickler, Website und Programm-Updates. |
 
 Rechtsklick auf ein Plugin (oder die markierten Plugins): **Aktualisieren** – installiert sofort –, **Update erzwingen** (installiert auch ein aktuelles Plugin neu), **Als aktualisiert markieren** (für ein von Hand aktualisiertes Plugin: die angebotene Version gilt als installiert; bei einem Plugin, dessen Dateien keine Version tragen, heißt der Eintrag **Aktuelle Version von der Quelle übernehmen**), *Quellseite öffnen*, *Plugin-Ordner öffnen* (im laufenden Total Commander, sonst im Explorer), *Quelle festlegen …*, *Diese Version überspringen* (nur diese Version wird ausgeblendet) und **Plugin ignorieren (nie aktualisieren)**. Ein ignoriertes Plugin bleibt abgeblendet und mit *ignoriert* in der Liste; es wird nicht geprüft, nicht angehakt und nicht aktualisiert, bis du *Plugin nicht mehr ignorieren* wählst. Jede dieser Aktionen lässt sich im selben Menü zurücknehmen (*Überspringen aufheben*, *Markierung „aktualisiert“ aufheben*), und der Filter **Benutzerdefiniert** zeigt, bei welchen Plugins du sie angewendet hast. Das Menü **Extras** enthält *Plugins neu einlesen* (F5), *Total-Commander-Konfiguration wählen …*, *Plugin-Ordner öffnen*, *Alle Updates auswählen* / *Auswahl aufheben* sowie *Alle Gruppen aufklappen* / *Alle Gruppen zuklappen*.
 
-TCplup merkt sich Position und Größe seines Fensters. Das Programm erscheint auf Deutsch, wenn Windows auf Deutsch eingestellt ist, sonst auf Englisch. Es folgt dem hellen oder dunklen Windows-Design und der Akzentfarbe.
+TCplup merkt sich Position und Größe seines Fensters. Das Programm erscheint auf Deutsch, wenn Windows auf Deutsch eingestellt ist, sonst auf Englisch. Es folgt dem hellen oder dunklen Windows-Design (oder der Einstellung von Total Commander, siehe *Design*) und der Akzentfarbe.
 
 ## Gut zu wissen
 

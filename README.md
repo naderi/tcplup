@@ -48,12 +48,15 @@ An updater for [Total Commander](https://www.ghisler.com) plugins. It reads the 
 | **Keep downloaded archives** | Keeps the downloaded archives in the download folder. |
 | **Download only (do not install)** | Saves the archives in the download folder and leaves the installed plugins untouched. |
 | **Force update (reinstall even if up to date)** | Offers every plugin that has a download as an update (ticked), so the current version is installed again. |
+| **Copy only the files matching this Total Commander (32 / 64 bit)** | Of a 32/64-bit pair (`x.wfx` and `x.wfx64`) an installation or update copies only the file your Total Commander loads. |
+| **Delete unused 32/64-bit files** | *Clean up* moves the file of a 32/64-bit pair that your Total Commander never loads to the recycle bin, in all plugin folders (after asking). |
+| **Appearance** | *Light*, *Dark* or *Follow TC* (the dark mode setting of Total Commander; when that follows Windows, Windows decides). |
 | **Download folder** | Where kept and downloaded archives go. Default: the folder `downloads` next to TCplup; choose another one with *Change…*. |
 | **ⓘ** (bottom left) | About window with version, developer, website and program updates. |
 
 Right-click a plugin (or the selected plugins) for **Update** – installs it right away –, **Force update** (reinstalls it also when it is up to date), **Mark as updated** (for a plugin you updated by hand: the offered version counts as installed; for a plugin whose files carry no version it reads **Take current version from the source**), *Open source page*, *Open plugin folder* (in the running Total Commander, otherwise in Explorer), *Set source…*, *Skip this version* (only this version is hidden) and **Ignore this plugin (never update)**. An ignored plugin stays in the list, dimmed and marked *ignored*; it is not checked, not ticked and not updated until you choose *Stop ignoring this plugin*. Each of these actions can be undone in the same menu (*Stop skipping this version*, *Remove "updated" mark*), and the **User defined** filter shows which plugins you applied them to. **Extras** has *Read plugins again* (F5), *Choose Total Commander configuration…*, *Open plugin folder*, *Select all updates* / *Clear selection* and *Expand all groups* / *Collapse all groups*.
 
-TCplup remembers the position and size of its window. The program appears in German when Windows is set to German, otherwise in English. It follows the light or dark Windows theme and the accent color.
+TCplup remembers the position and size of its window. The program appears in German when Windows is set to German, otherwise in English. It follows the light or dark Windows theme (or the Total Commander setting, see *Appearance*) and the accent color.
 
 ## Good to know
 
