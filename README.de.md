@@ -58,6 +58,10 @@ Rechtsklick auf ein Plugin (oder die markierten Plugins): **Aktualisieren** – 
 
 TCplup merkt sich Position und Größe seines Fensters. Das Programm erscheint auf Deutsch, wenn Windows auf Deutsch eingestellt ist, sonst auf Englisch. Es folgt dem hellen oder dunklen Windows-Design (oder der Einstellung von Total Commander, siehe *Design*) und der Akzentfarbe.
 
+## Stilles Update über die Kommandozeile
+
+`TCplup.exe --autoupdate` läuft ohne Fenster: Es liest die Plugin-Liste, sucht neue Versionen und installiert jedes veraltete Plugin, mit den in `TCplup.json` gespeicherten Optionen (Plugin-Liste, Update-Modus, nur herunterladen, …), und beendet sich dann. Ignorierte und übersprungene Plugins bleiben unberührt, *Update erzwingen* wird nicht angewendet. Gedacht für geplante Aufgaben und Skripte (Aufgabenplanung, Chocolatey-/Scoop-Update-Skripte). Der Exit-Code ist `0`, wenn alles gut ging, `1`, wenn ein Plugin fehlschlug, und `2`, wenn keine Total-Commander-Konfiguration gefunden wurde.
+
 ## Gut zu wissen
 
 - **Der Total Commander kann weiterlaufen.** Ein Plugin in Benutzung lässt sich nicht überschreiben; TCplup benennt die alte Datei um (`*.tcplup-old`) und legt die neue an ihre Stelle, die alten Dateien werden beim nächsten Start gelöscht. Für die neuen Versionen den Total Commander neu starten.
