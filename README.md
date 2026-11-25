@@ -76,6 +76,14 @@ TCplup remembers the position and size of its window. The program appears in Ger
 
 TCplup updates itself from its GitHub releases: once a day (switch it off in the about window) and on demand; an orange dot on the ⓘ button shows that an update exists. The download is installed only if its signature verifies. With Scoop, TCplup only points to `scoop update tcplup`.
 
+## Languages
+
+TCplup speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the *Options* section (*Interface language*) or set `"language"` in `TCplup.json` (for example `Persian` or `fa`; `auto` follows Windows).
+
+The texts are built into `TCplup.exe`; a plain `.lng` file in a `Languages` folder next to it overrides them or adds a language. The template `Template.lng` for a new language is attached to every release.
+
+Corrections and new translations from native speakers are very welcome – please send them as an [issue](https://github.com/naderi/tcplup/issues) on this repository.
+
 ## License
 
 Freeware – free to use, but **not for sale**. See [LICENSE](LICENSE).
