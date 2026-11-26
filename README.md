@@ -78,7 +78,7 @@ TCplup updates itself from its GitHub releases: once a day (switch it off in the
 
 ## Languages
 
-TCplup speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the *Options* section (*Interface language*) or set `"language"` in `TCplup.json` (for example `Persian` or `fa`; `auto` follows Windows, `tc` follows Total Commander's own language – also the entry *Like Total Commander*).
+TCplup speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese, Danish and Persian. It follows the Windows display language; to pick another one, use the *Options* section (*Interface language*) or set `"language"` in `TCplup.json` (for example `Persian` or `fa`; `auto` follows Windows, `tc` follows Total Commander's own language – also the entry *Like Total Commander*).
 
 The texts are built into `TCplup.exe`; a plain `.lng` file in a `Languages` folder next to it overrides them or adds a language. The template `Template.lng` for a new language is attached to every release.
 
