@@ -78,7 +78,7 @@ TCplup aktualisiert sich selbst aus seinen GitHub-Releases: einmal täglich (im 
 
 ## Sprachen
 
-TCplup gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über den Bereich *Optionen* (*Sprache der Oberfläche*) oder mit `"language"` in der `TCplup.json` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows).
+TCplup gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über den Bereich *Optionen* (*Sprache der Oberfläche*) oder mit `"language"` in der `TCplup.json` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows, `tc` der Sprache von Total Commander – auch als Eintrag *Wie Total Commander*).
 
 Die Texte sind in `TCplup.exe` eingebaut; eine einfache `.lng`-Datei in einem Ordner `Languages` neben der exe ersetzt sie oder fügt eine Sprache hinzu. Die Vorlage `Template.lng` für eine neue Sprache hängt an jedem Release.
 
